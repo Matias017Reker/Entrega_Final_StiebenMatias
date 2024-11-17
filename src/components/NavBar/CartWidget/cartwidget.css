@@ -1,0 +1,17 @@
+.carticon{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.number{
+    background-color: rgb(17, 255, 0);
+    border-radius: 10rem;
+    text-align: center;
+    color: #000;
+}
+
+.emptynumber{
+    background-color: #ff0000;
+    border-radius: 10rem;
+    text-align: center;
+}

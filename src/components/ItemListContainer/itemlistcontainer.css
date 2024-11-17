@@ -1,0 +1,52 @@
+/*general_estuctura*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+/*cards*/
+
+.card{
+    display: flex;
+    margin: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 17rem;
+    border: solid 1px #aaa;
+    border-radius: 0.50rem;
+    background-color: #ffff;
+}
+
+.precio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 2rem;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*boton*/
+
+.btn-1 {
+    background-color: #696969;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0.25rem;
+}
+
+.btn-1:hover {
+    background-color: #414141;
+}

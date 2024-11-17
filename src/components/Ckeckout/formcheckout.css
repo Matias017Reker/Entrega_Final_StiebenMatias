@@ -1,0 +1,20 @@
+.form_style{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 30rem;
+    background-color: #a3a3a3;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.submit-btn{
+    padding: 1rem;
+    margin: 1rem;
+    color: #ffffff;
+    background-color: #3d3d3d;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: #242424;
+}

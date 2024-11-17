@@ -1,0 +1,42 @@
+/*general*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*barra*/
+
+.brand{
+    margin: 5px 5px;
+}
+
+.navbar{
+    display: flex;
+    background-color: #696969;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*links*/
+
+.ul_links{
+    list-style: none;
+}
+
+.li_links{
+    display: inline-block;
+    padding: 42px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.li_links:hover{
+    color: #ffffff;
+    background-color: #212121;
+}
+

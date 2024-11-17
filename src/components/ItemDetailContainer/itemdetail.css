@@ -1,0 +1,56 @@
+/*general*/
+.detail{
+    display: flex;
+    margin: 5rem 10rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    width: 95rem;
+    border: solid 1px #aaa;
+    border-radius: 0.50rem;
+    background-color: #b8b8b8;
+}
+
+/*inside*/
+
+.price{
+    margin: 3px 39%; 
+    font-size: large;
+}
+
+.name{
+    font-size: xx-large;
+    margin: 5px 36%;
+    width: 80%;
+}
+
+.descr{
+    text-align: center;
+    width: 70%;
+    margin: 4px 10%;
+    font-size: x-large;
+}
+
+.img{
+    margin: 30px;
+    border-radius: 1rem;
+}
+
+/*boton*/
+
+.btn-2 {
+    margin: 0 40%;
+    background-color: #696969;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+.btn-2:hover {
+    background-color: #414141;
+}
